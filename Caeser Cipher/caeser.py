@@ -4,6 +4,10 @@ You are to write a function that accepts two arguments, a plain-text message and
 The function will return an encrypted string with all letters transformed and all punctuation and whitespace remaining unchanged.
 
 Note: You can assume the plain text is all lowercase ASCII except for whitespace and punctuation.
+
+Example:
+abcd xyz
+If the shift value, n, is 4, then the encrypted text would be the following: efgh bcd
 '''
 
 
