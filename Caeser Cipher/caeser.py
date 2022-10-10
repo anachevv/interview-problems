@@ -13,10 +13,9 @@ If the shift value, n, is 4, then the encrypted text would be the following: efg
 
 def encrypt(msg, shift):
     alpha = [chr(x) for x in range(97, 122 + 1)]
-    msg_lst = [x for x in msg]
     result = []
 
-    for char in msg_lst:
+    for char in msg:
         if char == ' ':
             result.append(char)
         else:
